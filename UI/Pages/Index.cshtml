@@ -1,0 +1,17 @@
+﻿@page
+@using DemoLibrary.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@{
+    List<PersonModel> people = null;
+}
+
+<ul>
+    @foreach(var p in people)
+    {
+        <li>@p.FirstName @p.LastName</li>
+    }
+</ul>
