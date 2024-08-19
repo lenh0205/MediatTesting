@@ -1,13 +1,8 @@
 ﻿using DemoLibrary.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DemoLibrary.DataAccess
 {
-    public class DemoDataAccess
+    public class DemoDataAccess : IDataAccess
     {
         private List<PersonModel> people = new();
 

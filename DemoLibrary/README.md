@@ -1,2 +1,5 @@
+﻿
+* -> ta sẽ cài **`MediatR`** cho DemoLibrary
+* -> và cài **`MediatR.Extensions.Miscrosoft.DependencyInjection` cho "UserInterface"
 
-* we have the **`query`** that we want to run 
+* we need to config the **`Startup.cs`**
