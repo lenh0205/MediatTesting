@@ -7,7 +7,10 @@ namespace DemoLibrary.Queries
     // the "IRequest" is using for "Query" and "Command"s
 
     // this "record" has no params - implement interface from "MediatR" - return a "List<PersonModel>"
-    // this is where we identify "what the handler is?" - each "query" will onlyy have one "handler"
+    // this is where we identify "what the handler is?" - each "query" will only have one "handler"
     public record GetPersonListQuery() : IRequest<List<PersonModel>>;
-    // same as: public class GetPersonListQueryClass : IRequest<List<PersonModel>> {}
+
+    // -> equivalent to:
+    //public class GetPersonListQueryClass : IRequest<List<PersonModel>> {}
 }
+// -> the "query" is a read only action (not modify data)

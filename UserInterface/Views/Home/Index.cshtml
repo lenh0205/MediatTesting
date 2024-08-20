@@ -1,10 +1,14 @@
 ﻿@using DemoLibrary.Models;
+@using DemoLibrary.Queries;
+
+@model List<PersonModel>
+
 @{
     ViewData["Title"] = "Home Page";
 }
 
 @{
-    List<PersonModel> people = new();
+    
 }
 
 <div class="text-center">
@@ -13,8 +17,9 @@
 </div>
 
 <ul>
-    @foreach (var p in people)
+    @foreach (var p in Model)
     {
         <li>@p.FirstName @p.LastName</li>
     }
 </ul>
+

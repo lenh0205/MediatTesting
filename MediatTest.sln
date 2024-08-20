@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{C4CDC034-CE34-4D49-AB62-455396D1E947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{05DEF296-4633-4204-811A-3BAA7CAAA61B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterface", "UserInterface\UserInterface.csproj", "{05DEF296-4633-4204-811A-3BAA7CAAA61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAPI", "DemoAPI\DemoAPI.csproj", "{B1EDD3AA-7445-415E-8FA1-498487DCDB80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{05DEF296-4633-4204-811A-3BAA7CAAA61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05DEF296-4633-4204-811A-3BAA7CAAA61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05DEF296-4633-4204-811A-3BAA7CAAA61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EDD3AA-7445-415E-8FA1-498487DCDB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EDD3AA-7445-415E-8FA1-498487DCDB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EDD3AA-7445-415E-8FA1-498487DCDB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EDD3AA-7445-415E-8FA1-498487DCDB80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
