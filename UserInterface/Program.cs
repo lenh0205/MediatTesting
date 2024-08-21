@@ -12,7 +12,8 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddSingleton<IDataAccess, DemoDataAccess>();
 
 // will load entire assembly not just the class
-// and looking for anything we do with "mediatr" (hanlder, query, command)
+// and looking for anything we do with "mediatR" (hanlder, query, command)
+// find which one inherit 'IRequestHandler', 'IRequest' and put them into registration system
 builder.Services.AddMediatR(typeof(DemoLibraryMediatREntrypoint).Assembly);
 
 var app = builder.Build();

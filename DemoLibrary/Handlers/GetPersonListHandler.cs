@@ -8,7 +8,7 @@ namespace DemoLibrary.Handlers
     // -> the handle will be the one that contain all the works
     // -> we can initiate this class without "mediatR" - convenient for Unit Test
 
-    // handle the Query (or Command) "GetPersonListQuery" as the input
+    // handle 1 Query or 1 Command ("GetPersonListQuery" in this case) as the input
     // and output the "List<PersonModel>"
     public class GetPersonListHandler : IRequestHandler<GetPersonListQuery, List<PersonModel>>
     {
